@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebAcesible</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="contact-us">
+    <form action="#">
+      <label for="customerName">NOMBRE <em>&#x2a;</em></label>
+      <input tabindex="1" id="customerName" name="customerName" required="" type="text" />
+      <label for="customerEmail">EMAIL <em>&#x2a;</em></label>
+      <input tabindex="2" id="customerEmail" name="customerEmail" required="" type="email" />
+      <label for="customerPhone">TELEFONO</label>
+      <input tabindex="3" id="customerPhone" name="customerPhone" type="tel" />
+      <label for="customerNote">TU MENSAJE <em>&#x2a;</em></label>
+      <textarea tabindex="4" id="customerNote" name="customerNote" required="" rows="4"></textarea>
+      <h3>
+        Introduce la información a consultar en este apartado.
+      </h3>
+      <label for="spamProtection">SPAM PROTECTION <em>&#x2a; </em><span>&nbsp;&nbsp;&nbsp;&nbsp;Cuanto es 5+4:
+        </span></label>
+      <input tabindex="5" id="spamProtection" name="spamProtection" type="text" />
+      <button tabindex="6" id="customerOrder">SUBMIT</button>
+    </form>
+  </div>
+</body>
+</html>
